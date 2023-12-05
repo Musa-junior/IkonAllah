@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+.topnav #myLinks{
+    display: none;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a.icon{
+    background: red;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.topnav .active{
+    background-color: #04aa6d;
+    color: white;
+}
+.topnav{
+    display: none;
+}
+/* End of mobile navigation */
+
+/* Start of desktop navigation */
+nav{
+    background: gray;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 14px 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+/* End of desktop navigation */
+#section{
+    height: 630px;
+    padding: 23px;
+}
+h1, h2{
+    margin-bottom: 15px;
+    color: red;
+}
+#section a{
+    text-decoration: none;
+    color: coral;
+    font-size: 16px;
+}
+p{
+    line-height: 1.4;
+    color: #808080;
+    margin-bottom: 10px;
+}
+.columns{
+    display: flex;
+}
+.col{
+        width: 50%;
+        height: 350px;
+}
+.img1{
+    background: url('../img/th.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background: url('../img/R.jpg');
+    background-position: center;
+    background-size: cover;
+}  
+#news{
+    height: 300px;
+    padding: 23px;
+}                  
+#news a{
+    text-decoration: none;
+    color: coral;
+    font-size: 16px;
+}
+#contact{
+    height: 300px;
+    padding: 23px;
+}
+.social{
+    margin-top: 50px;
+}
+.social a{
+    text-decoration: none;
+}
+.fa-facebook{
+    color: #1877f2;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.fa-whatsapp{
+    color: #128c7e;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.fa-instagram{
+    color: #cd486b;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.fa-twitter{
+    color: #00acee;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.fa-youtube{
+    color: #ff0000;
+    font-size: 25px;
+    margin-right: 8px;
+}
+.social a{
+    text-decoration: none;
+}
+#about{
+    height: 300px;
+    padding: 23px;
+    margin-top: 50px;
+}
+#about .aboutImgs{
+    display: flex;
+    justify-content: space-between;
+}
+#about .about1{
+    height: 350px;
+    width: 50%;
+    background: url('../img/R\ \(4\).jpeg');
+    background-position: center;
+    background-size: cover;
+}
+#about .about2{
+    height: 350px;
+    width: 50%;
+    background: url('../img/R\ \(6\).jpeg');
+    background-position: center;
+    background-size: cover;
+}
+/* End of about */
+#services{
+    height: 300px;
+    padding: 23px;
+    margin-top: 180px;
+    margin-bottom: 250px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    width: 32%;
+    height: 350px;    
+}
+.cardImg{
+    height: 250px;
+   
+}
+.image1{
+    background: url('../img/th\ \(1\).jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.image2{
+    background: url('../img/R\ \(5\).jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.image3{
+    background: url('../img/R\ \(3\).jpeg');
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    height: 100vh;
+    color: white;
+    background:black ;
+    padding: 23px;
+}
+.ourLinks{
+    margin-top: 30px;
+}
+.ourLinks a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #606060;
+}
+.copyright{
+    margin-top: 30px;
+}
+/* Gallery code */
+#gallery{
+    height: 650px;
+    padding: 23px;
+}
+.row{
+display: flex;
+justify-content: space-between;
+}
+.column{
+    width: 32%;
+    height: 250px;
+    cursor: pointer;
+}
+.column:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.colImg1{
+    background: url(../img/R.png);
+    background-position: center;
+    background-size: cover;
+}
+.colImg2{
+    background: url(../img/OIP\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.colImg3{
+    background: url(../img/th.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.colImg4{
+    background: url(../img/OIP.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.colImg5{
+    background: url(../img/th\ \(3\).jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.colImg6{
+    background: url(../img/th\ \(4\).jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.colImg7{
+    background: url(../img/th\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.colImg8{
+    background: url(../img/R\ \(2\).jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* Mobile responsiveness */
+@media screen and (max-width:600px) {
+    nav{
+        display: none;
+    } 
+    .topnav{
+        display: block;
+    }
+    #section{
+        margin-bottom: 120px;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .img1, .img2{
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+    #about .aboutImgs{
+        flex-direction: column;
+    }
+    #about .about1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #about .about2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #services{
+        margin-top: 590px;
+        margin-bottom: 1350px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin-top: 100px;
+    }
+    #gallery{
+        height: 2500px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .column{
+        width: 100%;
+    }
+}
